@@ -44,17 +44,21 @@ nav a:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .index-photo{
-  width: 500px;
-  height: 500px;   
-  display: block;     
-  margin: 0 auto;
+
+      margin: 5px;
+      width: 35%
+      
+   
 }
 
 .Iula-story {
   text-align: center;
   margin:5rem auto;
   max-width: 500px; 
+
+  font-style: italic;
 }
+
 main {
   flex: 1;
   padding: 2rem;
@@ -79,7 +83,7 @@ main {
   max-width: 900px;
   margin: auto;
   background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(59, 47, 47, 0.1);
+  box-shadow: 0 0 10px #3b2f2f;
 }
 
 main h2 {
@@ -113,3 +117,11 @@ main ul {
   margin-right: auto;
   max-width: 100%;
 }
+.walkoffame{
+    flex-direction: column;
+    align-items: center;
+  }
+  .lof{
+    flex-direction: column;
+    align-items: center;
+  }
